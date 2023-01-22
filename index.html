@@ -19,11 +19,11 @@
       };
     </script>
   </head>
-  <body>
-    <header class="container mx-auto px-8 mt-8">
-      <div class="flex items-center justify-center gap-5">
-        <div class="space-y-6 w-2/4">
-          <h1 class="font-semibold text-6xl">
+  <body class="container mx-auto px-8 md:px-16">
+    <header class="mt-14">
+      <div class="md:flex items-center justify-center gap-7">
+        <div class="space-y-6 md:w-2/4">
+          <h1 class="font-semibold text-5xl md:text-6xl">
             It's good tea time at
             <span class="text-orange-600">The Tea House</span>
           </h1>
@@ -32,15 +32,50 @@
             distinctio provident, ipsa impedit nobis commodi!
           </p>
           <button
-            class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] hover:from-pink-500 hover:to-yellow-500 ... p-5 text-white text-xl rounded"
+            class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] hover:from-pink-500 hover:to-yellow-500 ... p-3 md:p-5 text-white text-xl rounded"
           >
             Explore More
           </button>
         </div>
-        <div class="w-2/4">
+        <div class="md:w-2/4">
           <img src="./images/banner.png" alt="" />
         </div>
       </div>
     </header>
+    <!-- Featured Section -->
+    <section class="mt-36">
+      <div class="text-center w-3/4 mx-auto space-y-5">
+        <h1 class="font-semibold text-4xl md:text-5xl">
+          Our Featured Products
+        </h1>
+        <p>
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don't look even slightly believable.
+        </p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-7 mt-20">
+        <div class="text-center p-3 bg-slate-100 space-y-3 rounded">
+          <img class="mx-auto" src="./images/tea-1.png" alt="" />
+          <h4 class="font-semibold text-3xl">Back Tea</h4>
+          <p>Creamer could be replaced by fresh milk</p>
+        </div>
+        <div class="text-center p-3 bg-slate-100 space-y-3 rounded">
+          <img class="mx-auto" src="./images/tea-2.png" alt="" />
+          <h4 class="font-semibold text-3xl">Milk Tea</h4>
+          <p>Creamer could be replaced by fresh milk</p>
+        </div>
+        <div class="text-center p-3 bg-slate-100 space-y-3 rounded">
+          <img class="mx-auto" src="./images/tea-1.png" alt="" />
+          <h4 class="font-semibold text-3xl">Green Tea</h4>
+          <p>Creamer could be replaced by fresh milk</p>
+        </div>
+        <div class="text-center p-3 bg-slate-100 space-y-3 rounded">
+          <img class="mx-auto" src="./images/tea-1.png" alt="" />
+          <h4 class="font-semibold text-3xl">Lemon Tea</h4>
+          <p>Creamer could be replaced by fresh milk</p>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
